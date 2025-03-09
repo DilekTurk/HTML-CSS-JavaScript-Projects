@@ -1,0 +1,40 @@
+#container{
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+button{
+    font-size: 1.5em;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(144, 0, 255);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Button hover effect */
+button:hover{
+    background-color:  rgb(74, 1, 131); /* Darken the button color */
+}
+/* Button click (active) effect */
+button:active{
+    background-color: rgb(223, 181, 255); /* Change button color when clicked */
+}
+/* Styling for the input field */
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+/* Margin around the dice result display */
+#diceResult{
+    margin: 25px;
+}
+/* Styling for dice images */
+#diceImages img{
+    width: 150px;
+    margin: 5px; /* Add space between images */
+}
