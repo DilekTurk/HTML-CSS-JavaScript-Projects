@@ -1,0 +1,13 @@
+body{
+    font-family:'Verdana';
+    text-align: center; /* Centers all elements */
+}
+#myButton{
+    font-size: 3em; /* Increases button text size */
+    padding: 5px 25px;
+    border-radius: 5px; /* Rounds the button edges */
+    background-color: chocolate;
+}
+.Labels{
+    font-size: 3em;
+}
