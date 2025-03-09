@@ -1,0 +1,24 @@
+/* Styling for the counter label */
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+/* Centering the button container */
+#btnContainer{
+    text-align: center;    
+}
+/* Styling for the buttons */
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: cadetblue;
+    border-radius: 7px;
+    cursor: pointer; /* Changes cursor to pointer when hovered */
+    transition: background-color 0.25s; /* Smooth color transition on hover */
+}
+/* Button hover effect */
+.buttons:hover{
+    background-color: hsl(174, 79%, 17%);
+}
